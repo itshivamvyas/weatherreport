@@ -3,8 +3,10 @@ import Home from "./Components/Pages/Home";
 
 function App() {
   return (
-    <div className="max-w-md mx-auto">
-      <Home/>
+    <div className="bg-slate-300">
+      <div className="max-w-md mx-auto">
+        <Home />
+      </div>
     </div>
   );
 }

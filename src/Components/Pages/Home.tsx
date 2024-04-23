@@ -1,6 +1,45 @@
 function Home() {
-  return <div className="bg-slate-400">Today We Are Creating Weather App.
-  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae corporis sequi eaque ad id, ea hic et ducimus a nihil? Ipsa vitae atque fuga praesentium omnis architecto veritatis fugit error voluptatem nesciunt? Amet, inventore minus dolorum a modi repudiandae, recusandae placeat suscipit officiis eos, vero animi praesentium impedit non aliquid molestias eum! Architecto vitae magni dolor odit iusto dolorum ipsa aliquid ut dicta aliquam, ratione impedit temporibus veniam dolorem culpa quas incidunt sapiente vel perspiciatis delectus. Rerum nam expedita qui voluptas magnam corporis sit aspernatur. Minus, ipsa dolorem. Beatae, repellat! Alias reiciendis illum esse? Ad voluptatibus vitae a sed debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, quisquam soluta. Corrupti vitae omnis minima autem aliquam beatae animi, unde voluptatibus earum maxime odio repellendus, reprehenderit accusantium placeat dolor explicabo, minus aperiam impedit. Totam asperiores quaerat delectus culpa praesentium accusamus vero, magnam expedita aspernatur maiores omnis aliquid sunt voluptatum quasi quidem eaque atque iusto consectetur at ratione autem eos? Voluptatum asperiores dolor rerum praesentium, ipsam esse ducimus quas ipsa, non officiis exercitationem. Itaque veritatis eveniet rem suscipit, illum natus ex quasi cum consectetur debitis dolorum facilis dicta excepturi dolores dignissimos? Corporis nemo ducimus officia ratione voluptate eligendi culpa quis commodi unde eaque aut veniam laudantium voluptatibus fugiat fugit inventore, tempore necessitatibus, neque voluptates laborum. Quo facere quidem, error nulla recusandae, sit earum architecto beatae sint minus quod corrupti. Odio facere qui mollitia aperiam, est numquam officia facilis ab enim, earum quam vel quo non incidunt nemo ea commodi ullam ducimus sequi beatae. Reiciendis, corrupti molestias possimus quisquam pariatur quo iste recusandae provident facilis veritatis officiis enim unde totam dolore laudantium doloremque quos officia voluptates quis animi dignissimos odio, ullam quaerat? Ducimus magni delectus minima sequi consequatur. Accusantium, dolore? Natus id tempore est, officia reprehenderit ab quidem dicta explicabo eveniet corporis commodi delectus, magni illo, quae quod inventore sequi iste dolorem. Quos doloremque enim excepturi quibusdam commodi explicabo eum ab at minima perspiciatis blanditiis, veritatis corporis expedita deserunt doloribus laborum unde laudantium voluptatem, incidunt porro? Omnis esse aliquid magni, numquam sint sit, sapiente consectetur consequatur velit, nesciunt maiores officiis facilis. Eaque aperiam qui fugit. Molestiae et soluta ducimus cumque at qui laudantium fuga iste! Cumque blanditiis dolorem minus exercitationem ea aspernatur impedit consectetur repellendus officiis. Excepturi cum, dolores blanditiis maxime inventore numquam eius tempora omnis fugiat illum modi illo ea consectetur soluta quam mollitia rerum commodi asperiores laborum. Autem, eius incidunt totam fugiat quo porro ut possimus cumque necessitatibus explicabo mollitia odio ea voluptas vero. Voluptatibus delectus repellat nesciunt dolor libero, est fuga accusamus dolorem consequatur natus, porro blanditiis cum, soluta exercitationem eos illo praesentium? Quaerat autem velit reprehenderit atque voluptatem facilis quis repellat et eos temporibus quae provident numquam soluta cumque, eligendi id. Vero sequi iure harum ipsum molestiae doloremque impedit accusantium aspernatur, facilis quaerat quis tenetur a corporis ad rem natus. Maxime, excepturi pariatur! Ab facere reprehenderit assumenda quod aliquid at quis officiis ipsa? Placeat voluptas necessitatibus quasi soluta architecto facere voluptates reprehenderit expedita? Nulla maxime debitis veritatis officia dolorum, nostrum beatae asperiores quibusdam pariatur dignissimos, possimus autem tempora sint eligendi velit excepturi sed rem illo quam unde quaerat voluptas consectetur! Sit maxime possimus fugiat consectetur dolorum minima sapiente inventore modi nisi laborum sequi hic consequuntur nemo deleniti aut placeat amet eveniet, laudantium ipsum ipsam minus atque odio vitae qui. Harum, magnam nostrum. Atque, in ipsam fugiat nobis delectus aspernatur, rem doloremque asperiores ex perferendis error mollitia eaque animi ipsum. Et dicta rem animi doloribus aspernatur vitae quos similique dolore sed saepe facilis, ipsam esse dolorem nemo error accusamus ab quod repellendus necessitatibus officiis. Nobis tempore ipsum sed natus?</div>;
+  return (
+    <div className="bg-black/80 p-4 border-x-2 text-white min-h-screen flex flex-col gap-6">
+      <div>
+        <p className="text-2xl font-semibold">Sondala Faridpur</p>
+        </div>
+        <div className="text-9xl mx-auto">29°</div>
+        <div className="mx-auto font-semibold">Clear 21°/37° Air Quality :93 - Satisfactory</div>
+        <div className="w-full rounded-3xl p-3 ps-6 bg-black/80 font-semibold">High pollen count</div>
+        <div className="w-full rounded-xl p-3 bg-black/80 font-semibold overflow-x-scroll">
+          <ul className="flex gap-3">
+            <li className="flex flex-col items-center justify-center"><p>Now</p><p>29°</p></li>
+            <li className="flex flex-col items-center justify-center"><p>10:00am</p><p>29°</p></li>
+            <li className="flex flex-col items-center justify-center"><p>11:00am</p><p>30°</p></li>
+            <li className="flex flex-col items-center justify-center"><p>12:00pm</p><p>30°</p></li>
+            <li className="flex flex-col items-center justify-center"><p>01:00pm</p><p>31°</p></li>
+            <li className="flex flex-col items-center justify-center"><p>02:00pm</p><p>30°</p></li>
+            <li className="flex flex-col items-center justify-center"><p>03:00pm</p><p>32°</p></li>
+            <li className="flex flex-col items-center justify-center"><p>04:00pm</p><p>28°</p></li>
+            <li className="flex flex-col items-center justify-center"><p>05:00pm</p><p>27°</p></li>
+            <li className="flex flex-col items-center justify-center"><p>06:00pm</p><p>22°</p></li>
+          </ul>
+        </div>
+        <div className="flex flex-col items-center justify-center w-full rounded-xl p-3 bg-black/80">
+          <p className="font-semibold">Tommarow's Temperature</p>
+          <p className="font-extralight text-sm">Almost the smae as today</p>
+          <p className="font-bold">.</p>
+        </div>
+        <div className="flex flex-col gap-3 w-full rounded-xl p-3 bg-black/80 font-semibold">
+          <ul className="flex flex-col gap-3">
+            <li className="flex items-center justify-between"><div>23/04 Today</div> <div>21°/37°</div></li>
+            <li className="flex items-center justify-between"><div>24/04 Tomorrow</div> <div>21°/38°</div></li>
+            <li className="flex items-center justify-between"><div>25/04 Thu</div> <div>22°/39°</div></li>
+            <li className="flex items-center justify-between"><div>26/04 Fri</div> <div>24°/40°</div></li>
+            <li className="flex items-center justify-between"><div>27/04 Sat</div> <div>23°/39°</div></li>
+            <li className="flex items-center justify-between"><div>28/04 Sun</div> <div>23°/39°</div></li>
+            <li className="flex items-center justify-between"><div>29/04 Mon</div> <div>23°/40°</div></li>
+          </ul>
+          <div className="flex items-center justify-center w-4/6 rounded-3xl p-3 ps-6 bg-slate-600/20 font-semibold mx-auto">15-day weather forecast</div>
+        </div>
+    </div>
+  );
 }
 
 export default Home;
