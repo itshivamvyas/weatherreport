@@ -88,6 +88,71 @@ function Home() {
           </div>
         </div>
 
+<div className="flex flex-col gap-2 w-full rounded-xl p-3 bg-transparent/20">
+        <div className="flex justify-between">
+          <div>
+            <p>Icon</p>
+            <p className="text-xs font-thin">Sunrise</p>
+          </div>
+          <div>
+            <p>Icon</p>
+            <p className="text-xs font-thin">Sunset</p>
+          </div>
+        </div>
+        <div><hr /></div>
+        <div className="flex justify-between">
+          <div>5:40 am</div>
+          <div>6:47 pm</div>
+        </div>
+        </div>
+
+        <div className="flex flex-col gap-2 w-full rounded-xl p-3 bg-transparent/20">
+          <div><p>Lifestyle tips</p></div>
+          <div><hr /></div>
+          <div className="flex flex-col gap-10">
+            <div className="flex gap-2">
+             <div className="flex flex-col justify-center items-center w-32 h-28">
+              <div>Icon</div>
+              <div className="font-thin text-xs text-center">High pollen count</div>
+             </div>
+             <div className="flex flex-col justify-center items-center w-32 h-28">
+              <div>Icon</div>
+              <div className="font-thin text-xs text-center">High UV index</div>
+             </div>
+             <div className="flex flex-col justify-center items-center w-32 h-28">
+              <div>Icon</div>
+              <div className="font-thin text-xs text-center">Use moisturizers</div>
+             </div>
+            </div>
+
+            <div className="flex gap-2">
+             <div className="flex flex-col justify-center items-center w-32 h-28">
+              <div>Icon</div>
+              <div className="font-thin text-xs text-center">Very suitable for car washing</div>
+             </div>
+             <div className="flex flex-col justify-center items-center w-32 h-28">
+              <div>Icon</div>
+              <div className="font-thin text-xs text-center">Suitable for indoor workout</div>
+             </div>
+             <div className="flex flex-col justify-center items-center w-32 h-28">
+              <div>Icon</div>
+              <div className="font-thin text-xs text-center">Good traffic conditions</div>
+             </div>
+            </div>
+
+            <div className="flex gap-2">
+             <div className="flex flex-col justify-center items-center w-32 h-28">
+              <div>Icon</div>
+              <div className="font-thin text-xs text-center">Not suitable for a trip</div>
+             </div>
+             <div className="flex flex-col justify-center items-center w-32 h-28">
+              <div>Icon</div>
+              <div className="font-thin text-xs text-center">Some mosquitos</div>
+             </div>
+            </div>
+          </div>
+        </div>
+
     </div>
   );
 }
