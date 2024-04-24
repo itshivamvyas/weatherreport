@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="bg-black/80 p-4 border-x-2 text-white min-h-screen min-w-screen flex flex-col gap-6">
+    <div className="bg-sky-900 p-4 border-x-2 text-white min-h-screen min-w-screen flex flex-col gap-6">
 
       <div>
         <p className="text-2xl font-semibold">Sondala Faridpur</p>
@@ -10,9 +10,9 @@ function Home() {
 
         <div className="mx-auto font-semibold">Clear 21°/37° Air Quality :93 - Satisfactory</div>
 
-        <div className="w-full rounded-3xl p-3 ps-6 bg-black/80 font-semibold">High pollen count</div>
+        <div className="w-full rounded-3xl p-3 ps-6 bg-transparent/20 font-semibold">High pollen count</div>
 
-        <div className="w-full rounded-xl p-3 bg-black/80 font-semibold overflow-x-scroll">
+        <div className="w-full rounded-xl p-3 bg-transparent/20 font-semibold overflow-x-scroll">
           <ul className="flex gap-3">
             <li className="flex flex-col items-center justify-center"><p>Now</p><p>29°</p></li>
             <li className="flex flex-col items-center justify-center"><p>10:00am</p><p>29°</p></li>
@@ -27,13 +27,13 @@ function Home() {
           </ul>
         </div>
 
-        <div className="flex flex-col items-center justify-center w-full rounded-xl p-3 bg-black/80">
+        <div className="flex flex-col items-center justify-center w-full rounded-xl p-3 bg-transparent/20">
           <p className="font-semibold">Tommarow's Temperature</p>
           <p className="font-extralight text-sm">Almost the smae as today</p>
           <p className="font-bold">.</p>
         </div>
 
-        <div className="flex flex-col gap-3 w-full rounded-xl p-3 bg-black/80 font-semibold">
+        <div className="flex flex-col gap-3 w-full rounded-xl p-3 bg-transparent/20 font-semibold">
           <ul className="flex flex-col gap-3">
             <li className="flex items-center justify-between"><div>23/04 Today</div> <div>21°/37°</div></li>
             <li className="flex items-center justify-between"><div>24/04 Tomorrow</div> <div>21°/38°</div></li>
@@ -43,13 +43,49 @@ function Home() {
             <li className="flex items-center justify-between"><div>28/04 Sun</div> <div>23°/39°</div></li>
             <li className="flex items-center justify-between"><div>29/04 Mon</div> <div>23°/40°</div></li>
           </ul>
-          <div className="flex items-center justify-center w-4/6 rounded-3xl p-3 ps-6 bg-slate-600/20 font-semibold mx-auto">15-day weather forecast</div>
+          <div className="flex items-center justify-center w-3/4 rounded-3xl p-3 ps-6 bg-transparent/20 font-semibold mx-auto">15-day weather forecast</div>
         </div>
 
-        <div className="w-full rounded-xl p-3 bg-black/80">
-          <p className="font-extralight border-b-2 py-2 border-white/20">Air quality</p>
-          <p className="font-extralight text-sm">Almost the smae as today</p>
-          <p className="font-bold">.</p>
+        <div className="flex flex-col gap-2 w-full rounded-xl p-3 bg-transparent/20">
+          <p className="font-extralight border-b-2 py-2 border-white/20 text">Air quality</p>
+          <h1 className="text-xl">Satisfactory 75</h1>
+          <p className="font-thin text-xs">Air Quality is acceptable. However, unusually sensitive ....</p>
+        </div>
+
+        <div className="flex gap-3 justify-between">
+          <div className="flex flex-col justify-between items-start p-3 bg-transparent/20 rounded-xl w-32 h-28">
+            <div>Icon</div>
+            <div className="font-thin text-xs">UV</div>
+            <div className="font-semibold text-lg">1 Very weak</div>
+          </div>
+          <div className="flex flex-col justify-between items-start p-3 bg-transparent/20 rounded-xl w-32 h-28">
+            <div>Icon</div>
+            <div className="font-thin text-xs">Feels like</div>
+            <div className="font-semibold text-lg">26°</div>
+          </div>
+          <div className="flex flex-col justify-between items-start p-3 bg-transparent/20 rounded-xl w-32 h-28">
+            <div>Icon</div>
+            <div className="font-thin text-xs">Humidity</div>
+            <div className="font-semibold text-lg">45%</div>
+          </div>
+        </div>
+
+        <div className="flex gap-3 justify-between">
+          <div className="flex flex-col justify-between items-start p-3 bg-transparent/20 rounded-xl w-32 h-28">
+            <div>Icon</div>
+            <div className="font-thin text-xs">WNW wind</div>
+            <div className="font-semibold text-lg">8 km/h</div>
+          </div>
+          <div className="flex flex-col justify-between items-start p-3 bg-transparent/20 rounded-xl w-32 h-28">
+            <div>Icon</div>
+            <div className="font-thin text-xs">Air pressure</div>
+            <div className="font-semibold text-lg">1005 hPa</div>
+          </div>
+          <div className="flex flex-col justify-between items-start p-3 bg-transparent/20 rounded-xl w-32 h-28">
+            <div>Icon</div>
+            <div className="font-thin text-xs">Visibility</div>
+            <div className="font-semibold text-lg">14 km</div>
+          </div>
         </div>
 
     </div>
