@@ -38,7 +38,7 @@ function Home() {
         <div className="flex flex-col items-center justify-center font-semibold">
           <p>Clear 21°/37°</p>
           <p>Air Quality :- 93 - Satisfactory</p>
-        </div>
+        </div> 
 
         <div className="w-full rounded-3xl p-3 ps-6 bg-transparent/20 font-semibold flex gap-4 items-center">
           <IconSettings className="cursor-pointer bg-transparent/20 rounded-full p-2 size-9 hover:bg-transparent/40" />
@@ -136,7 +136,7 @@ function Home() {
           </div>
           <hr />
           <h1 className="text-xl">Satisfactory 75</h1>
-          <p className="font-thin text-xs">
+          <p className="text-xs">
             Air Quality is acceptable. However, unusually sensitive ....
           </p>
         </div>
@@ -146,21 +146,21 @@ function Home() {
             <div>
               <IconUvIndex />
             </div>
-            <div className="font-thin text-xs">UV</div>
+            <div className="text-xs">UV</div>
             <div className="font-semibold text-lg">1 Very weak</div>
           </div>
           <div className="flex flex-col justify-between items-start p-3 bg-transparent/20 rounded-xl w-32 h-28">
             <div>
               <IconTemperature />
             </div>
-            <div className="font-thin text-xs">Feels like</div>
+            <div className="text-xs">Feels like</div>
             <div className="font-semibold text-lg">26°</div>
           </div>
           <div className="flex flex-col justify-between items-start p-3 bg-transparent/20 rounded-xl w-32 h-28">
             <div>
               <IconDroplet />
             </div>
-            <div className="font-thin text-xs">Humidity</div>
+            <div className="text-xs">Humidity</div>
             <div className="font-semibold text-lg">45%</div>
           </div>
         </div>
@@ -170,21 +170,21 @@ function Home() {
             <div>
               <IconWind />
             </div>
-            <div className="font-thin text-xs">WNW wind</div>
+            <div className="text-xs">WNW wind</div>
             <div className="font-semibold text-lg">8 km/h</div>
           </div>
           <div className="flex flex-col justify-between items-start p-3 bg-transparent/20 rounded-xl w-32 h-28">
             <div>
               <IconWindElectricity />
             </div>
-            <div className="font-thin text-xs">Air pressure</div>
+            <div className="text-xs">Air pressure</div>
             <div className="font-semibold text-lg">1005 hPa</div>
           </div>
           <div className="flex flex-col justify-between items-start p-3 bg-transparent/20 rounded-xl w-32 h-28">
             <div>
               <IconEyeCheck />
             </div>
-            <div className="font-thin text-xs">Visibility</div>
+            <div className="text-xs">Visibility</div>
             <div className="font-semibold text-lg">14 km</div>
           </div>
         </div>
@@ -195,13 +195,13 @@ function Home() {
               <div>
                 <IconSunrise />
               </div>
-              <p className="text-xs font-thin">Sunrise</p>
+              <p className="text-xs">Sunrise</p>
             </div>
             <div className="flex flex-col gap-1 items-center">
               <div>
                 <IconSunset />
               </div>
-              <p className="text-xs font-thin">Sunset</p>
+              <p className="text-xs">Sunset</p>
             </div>
           </div>
           <div>
@@ -226,7 +226,7 @@ function Home() {
                 <div>
                   <IconSettings />
                 </div>
-                <div className="font-thin text-xs text-center">
+                <div className="text-xs text-center">
                   High pollen count
                 </div>
               </div>
@@ -234,7 +234,7 @@ function Home() {
                 <div>
                   <IconUvIndex />
                 </div>
-                <div className="font-thin text-xs text-center">
+                <div className="text-xs text-center">
                   High UV index
                 </div>
               </div>
@@ -242,7 +242,7 @@ function Home() {
                 <div>
                   <IconMoodEmpty />
                 </div>
-                <div className="font-thin text-xs text-center">
+                <div className="text-xs text-center">
                   Use moisturizers
                 </div>
               </div>
@@ -253,7 +253,7 @@ function Home() {
                 <div>
                   <IconWash />
                 </div>
-                <div className="font-thin text-xs text-center">
+                <div className="text-xs text-center">
                   Very suitable for car washing
                 </div>
               </div>
@@ -261,7 +261,7 @@ function Home() {
                 <div>
                   <IconMotorbike />
                 </div>
-                <div className="font-thin text-xs text-center">
+                <div className="text-xs text-center">
                   Suitable for outdoor workout
                 </div>
               </div>
@@ -269,7 +269,7 @@ function Home() {
                 <div>
                   <IconCar />
                 </div>
-                <div className="font-thin text-xs text-center">
+                <div className="text-xs text-center">
                   Good traffic conditions
                 </div>
               </div>
@@ -280,7 +280,7 @@ function Home() {
                 <div>
                   <IconPlane />
                 </div>
-                <div className="font-thin text-xs text-center">
+                <div className="text-xs text-center">
                   Not suitable for a trip
                 </div>
               </div>
@@ -288,7 +288,7 @@ function Home() {
                 <div>
                   <IconSpider />
                 </div>
-                <div className="font-thin text-xs text-center">
+                <div className="text-xs text-center">
                   Some mosquitos
                 </div>
               </div>
