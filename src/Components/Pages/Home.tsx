@@ -37,7 +37,7 @@ function Home() {
 
         <div className="flex flex-col items-center justify-center font-semibold">
           <p>Clear 21°/37°</p>
-          <p>Air Quality :93 - Satisfactory</p>
+          <p>Air Quality :- 93 - Satisfactory</p>
         </div>
 
         <div className="w-full rounded-3xl p-3 ps-6 bg-transparent/20 font-semibold flex gap-4 items-center">
