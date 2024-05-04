@@ -7,7 +7,7 @@ export default {
         "my-image": "url('/public/Wallpaper.jpg')",
       },
       backgroundColor: {
-        "powder-pink" : '#6930C5',
+        "shade-1" : '#6930C5',
       }
     },
   },

@@ -22,14 +22,14 @@ import {
 function Home() {
   return (
     <div>
-      <div className="flex items-center justify-between fixed text-white p-4 w-full max-w-[458px] mx-auto bg-blue-500">
+      <div className="flex items-center justify-between fixed text-white p-4 w-full max-w-[458px] mx-auto bg-shade-1 z-50">
         <p className="text-2xl font-semibold">Sondala Faridpur</p>
         <IconMapPin className="cursor-pointer bg-transparent/20 rounded-full p-2 size-10 hover:bg-transparent/40" />
         <IconDotsCircleHorizontal className="cursor-pointer bg-transparent/20 rounded-full p-2 size-10 hover:bg-transparent/40" />
         <IconSettings className="cursor-pointer bg-transparent/20 rounded-full p-2 size-10 hover:bg-transparent/40" />
       </div>
 
-      <div className=" p-4 pt-20 text-white min-h-screen min-w-screen flex flex-col gap-6 bg-blue-500">
+      <div className=" p-4 pt-20 text-white min-h-screen min-w-screen flex flex-col gap-6 bg-shade-1">
         <div className="text-9xl mx-auto relative">
           29
           <p className="absolute top-0 -right-11 opacity-60">°</p>
